@@ -1,6 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+/*
+Binary Tree te insert korar kkhetre tree er notun value node tree er NULL node e place hoy. Tree er moddhye khane place hoy na.
+Ekti matro node insert er kkhtre best case complexity logN, worst case complexity O(h).
+Onek gulunode insert er kkhetre worst case compleity O(hN), best case complexity O(Nlogn).
+*/
 class Node {
     public:
     int val;
